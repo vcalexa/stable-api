@@ -22,6 +22,16 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+	implementation ("io.github.microutils:kotlin-logging-jvm:3.0.4")
+	implementation ("ch.qos.logback:logback-classic:1.4.5")
+	implementation ("org.postgresql:postgresql:42.5.1")
+	implementation ("org.springframework.data:spring-data-jpa:3.0.0")
+	implementation("org.hibernate:hibernate-core:6.1.6.Final")
+	implementation("javax.persistence:javax.persistence-api:2.2")
+	implementation("org.springframework.boot:spring-boot-starter-jdbc:3.0.1")
+	implementation("org.liquibase:liquibase-core:4.18.0")
+
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
 }

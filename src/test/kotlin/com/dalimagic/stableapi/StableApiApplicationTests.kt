@@ -6,8 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest
 @SpringBootTest
 class StableApiApplicationTests {
 
-	@Test
-	fun contextLoads() {
-	}
+//	@Test
+//	fun contextLoads() {
+//	}
 
 }

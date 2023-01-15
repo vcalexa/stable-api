@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  postgres:
+    image: postgres:13
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_DB=stabledb
+      - POSTGRES_USER=stable
+      - POSTGRES_PASSWORD=stablepassword

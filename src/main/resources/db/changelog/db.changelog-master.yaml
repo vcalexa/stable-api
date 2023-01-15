@@ -1,0 +1,18 @@
+
+databaseChangeLog:
+  - changeSet:
+      id: 2023-01-15--1
+      author: pmig
+      changes:
+        - createTable:
+            tableName: image
+            columns:
+              - column:
+                  name: id
+                  type: serial
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: user
+                  type: text
